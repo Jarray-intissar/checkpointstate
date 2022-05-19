@@ -1,0 +1,76 @@
+.app{
+  width: 80vh;
+  height: 90vh;
+  margin: 5% auto;
+  padding: 70px;
+  background: url('https://cdn.vectorstock.com/i/1000x1000/47/41/christmas-lights-on-wooden-background-vector-21284741.webp');
+}
+.card {
+  width: 50vh;
+  height: 60vh;
+  padding: 30px 10px;
+  margin: 20px 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background: linear-gradient(45deg,#ff0047,#6eff00);
+
+ 
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+span{
+  margin: 10px;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 200;
+  line-height: 2;
+}
+
+img{
+  border-radius: 15%;
+}
+ 
+.btn {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #e9961b;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn:hover {background-color: #59e621}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.butt {
+  background-color: #076df3dc;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 4px;
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.butt:hover {
+  opacity: 1;
+}
+
+
+
+
